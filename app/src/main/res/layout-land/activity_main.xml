@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/main_background"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -26,7 +27,6 @@
             android:layout_weight="1"
             android:layout_marginEnd="@dimen/half_main_spacing"
             android:text="@string/categories"
-            app:icon="@drawable/ic_categories"
             app:iconGravity="textStart" />
 
         <com.google.android.material.button.MaterialButton
