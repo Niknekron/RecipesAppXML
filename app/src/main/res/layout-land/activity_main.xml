@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/categoriesButton"
             style="@style/StyleNavButton"
             android:layout_width="0dp"
@@ -29,7 +29,7 @@
             android:text="@string/categories"
             app:iconGravity="textStart" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/favoritesButton"
             style="@style/StyleNavButton"
             android:layout_width="0dp"
